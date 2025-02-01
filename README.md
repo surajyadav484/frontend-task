@@ -38,3 +38,16 @@ Note: Since figma was not given, I have developed the mobile view with my perspe
 3. Once navigation menu is open, there would be cross icon at the top right corner which user can use to close the sidebar menu.
 
 Note: There could have been more feature like collapsible navigation menu but sidebar remain open and then closing the sidebar if required. Since the requirement was just simply create the sidebar, hence have done with minimal features.
+
+## Preview
+Desktop:
+![image](https://github.com/user-attachments/assets/e749e199-30cd-4830-9b37-9fe02182a47e)
+![image](https://github.com/user-attachments/assets/249a8199-cb8b-442c-9e4b-67c3660ce06f)
+
+Mobile View:
+![image](https://github.com/user-attachments/assets/f67516a0-b0f4-4891-9d2f-c7f24ebcb640)
+![image](https://github.com/user-attachments/assets/ce4eeada-32b6-4232-ae92-96a78c4b04ed)
+![image](https://github.com/user-attachments/assets/40263f61-c0ec-47c0-940d-f346040a3f37)
+
+
+
