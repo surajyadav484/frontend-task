@@ -95,7 +95,7 @@ export function Sidebar() {
       </div>
       <div
         className={cn(
-          "h-screen border-r bg-gray-200 transition-all duration-300 hidden md:flex z-50",
+          "h-screen border rounded m-1 bg-gray-200 transition-all duration-300 hidden md:flex z-50 dark:bg-background",
           sidebarOpen ? "flex" : "hidden"
         )}
       >
