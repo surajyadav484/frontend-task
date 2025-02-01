@@ -2,9 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Steps to run the development server:
 
 ```bash
+Clone the repo git@github.com:surajyadav484/frontend-task.git
+npm install
 npm run dev
 # or
 yarn dev
@@ -16,21 +18,23 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+1. On medium to large devices sidebar with icons will be visible. Once clicked on any icon the respective navigation menus will open. As of now Menus will be visible for home page only as others are not developed.
 
-To learn more about Next.js, take a look at the following resources:
+2. Initially application will open in default theme. User can change the theme by clicking on theme icon at the top of sidebar menu.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Responsiveness
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+Note: Since figma was not given, I have developed the mobile view with my perspective.
+```
 
-## Deploy on Vercel
+1. In small devices, by default no sidebar will appear. Only a breadcrumb icon would be visible to user. Once the user clicks on breadcrumb icon sidebar will open. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Now user can click on any icon in sidebar to view related navigation menus. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Once navigation menu is open, there would be cross icon at the top right corner which user can use to close the sidebar menu.
+
+Note: There could have been more feature like collapsible navigation menu but sidebar remain open and then closing the sidebar if required. Since the requirement was just simply create the sidebar, hence have done with minimal features.
