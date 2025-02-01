@@ -17,7 +17,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Don't wanna setup? No worries, I have already hosted for you😊. Just follow the link. [https://frontend-task-jc.vercel.app/]([http://localhost:3000](https://frontend-task-jc.vercel.app/))
+Don't wanna setup? No worries, I have already hosted for you😊. Just follow the link. [https://frontend-task-jc.vercel.app/](https://frontend-task-jc.vercel.app/)
 
 ## Features
 
