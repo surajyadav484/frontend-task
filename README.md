@@ -43,6 +43,7 @@ Note: There could have been more feature like collapsible navigation menu but si
 
 ## Preview
 ### Desktop:
+##### Note: Body color was set to gray while taking SS hence might see mismatch in body color with hosted URL.
 ![image](https://github.com/user-attachments/assets/e749e199-30cd-4830-9b37-9fe02182a47e)
 ![image](https://github.com/user-attachments/assets/249a8199-cb8b-442c-9e4b-67c3660ce06f)
 
