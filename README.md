@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -18,10 +17,13 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Don't wanna setup? No worries, I have already hosted for you😊. Just follow the link.[https://frontend-task-jc.vercel.app/]([http://localhost:3000](https://frontend-task-jc.vercel.app/))
 
 ## Features
 
 1. On medium to large devices sidebar with icons will be visible. Once clicked on any icon the respective navigation menus will open. As of now Menus will be visible for home page only as others are not developed.
+
+2. To close the navigation menus click on the same sidebar icon again for which menu is open.
 
 2. Initially application will open in default theme. User can change the theme by clicking on theme icon at the top of sidebar menu.
 
