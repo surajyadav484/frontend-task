@@ -17,7 +17,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Don't wanna setup? No worries, I have already hosted for you😊. Just follow the link. [https://frontend-task-jc.vercel.app/](https://frontend-task-jc.vercel.app/)
+Don't have time for setup? No worries, I have already hosted for you😊. Just follow the link. [https://frontend-task-jc.vercel.app/](https://frontend-task-jc.vercel.app/)
 
 ## Features
 
@@ -43,6 +43,7 @@ Note: There could have been more feature like collapsible navigation menu but si
 
 ## Preview
 ### Desktop:
+##### Note: Body color was set to gray while taking SS hence might see mismatch in body color with hosted URL.
 ![image](https://github.com/user-attachments/assets/e749e199-30cd-4830-9b37-9fe02182a47e)
 ![image](https://github.com/user-attachments/assets/249a8199-cb8b-442c-9e4b-67c3660ce06f)
 
