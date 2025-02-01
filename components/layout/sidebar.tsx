@@ -95,11 +95,11 @@ export function Sidebar() {
       </div>
       <div
         className={cn(
-          "h-screen border-r bg-background transition-all duration-300 hidden md:flex z-50",
+          "h-screen border-r bg-gray-200 transition-all duration-300 hidden md:flex z-50",
           sidebarOpen ? "flex" : "hidden"
         )}
       >
-        <div className="flex flex-col items-center border-r bg-background h-full w-[64px]">
+        <div className="flex flex-col items-center border-r h-full w-[64px]">
           <nav>
             <Button
               variant="ghost"
@@ -169,7 +169,7 @@ export function Sidebar() {
           </div>
         </div>
         {selectedSidebarItem && (
-          <div>
+          <div className="bg-background">
             <Button variant="ghost" className="absolute top-0 right-0 md:hidden" onClick={() => setSidebarOpen(!sidebarOpen)}>
               X
             </Button>

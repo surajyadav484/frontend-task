@@ -30,7 +30,7 @@ export default function RootLayout({
               <Sidebar />
             </div>
 
-            <main className="flex-1 overflow-y-auto p-6 ml-16">{children}</main>
+            <main className="flex-1 overflow-y-auto p-6 ml-16 min-h-screen">{children}</main>
           </div>
         </ThemeProvider>
       </body>
