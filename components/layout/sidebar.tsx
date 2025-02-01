@@ -87,7 +87,10 @@ export function Sidebar() {
       <div className="md:hidden flex items-center absolute z-50">
         <Button
           variant="ghost"
-          className={cn("flex items-center justify-center", sidebarOpen && "hidden")}
+          className={cn(
+            "flex items-center justify-center",
+            sidebarOpen && "hidden"
+          )}
           onClick={() => setSidebarOpen(!sidebarOpen)} // Toggle sidebar on click
         >
           <Menu className="h-6 w-6" />
@@ -103,7 +106,7 @@ export function Sidebar() {
           <nav>
             <Button
               variant="ghost"
-              className="flex items-center justify-center py-5"
+              className="flex items-center gap-3 rounded-lg px-3 text-sm transition-all hover:bg-accent dark:hover:bg-gray-700 my-5 focus-visible:outline-none focus-visible:bg-none"
               onClick={() =>
                 setTheme((prev) => (prev === "dark" ? "light" : "dark"))
               }
@@ -170,7 +173,11 @@ export function Sidebar() {
         </div>
         {selectedSidebarItem && (
           <div className="bg-background">
-            <Button variant="ghost" className="absolute top-0 right-0 md:hidden" onClick={() => setSidebarOpen(!sidebarOpen)}>
+            <Button
+              variant="ghost"
+              className="absolute top-0 right-0 md:hidden"
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+            >
               X
             </Button>
             {sidebarContentMap[selectedSidebarItem]}
